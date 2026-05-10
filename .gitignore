@@ -6,3 +6,17 @@
 !docs/
 !docs/*
 !.gitignore
+
+# Security & Environment
+.env
+.env.*
+!.env.template
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+
